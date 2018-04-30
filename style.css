@@ -1,4 +1,7 @@
 #asgn1{
-	color: red;
-	font-family: "courier"
+	color: white;
+	font-family: "calibri";
+	background-color: red;
+	padding:2px;
+	text-align: center;
 }
