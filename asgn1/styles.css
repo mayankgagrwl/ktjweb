@@ -53,12 +53,32 @@
 }
 input[type=text], input[type=password]{
 	width:100%;
-	padding: 12px 20px;
+	background-color: #ecf0f1;
+	font-size: 20px;
+	padding:12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 0 0 0 1px;
-    border-color: blue;
+    border: none;
+    border-bottom: 2px solid lightblue;
     box-sizing: border-box;
+    outline: none;
+}
+input[type=text]:focus, input[type=password]:focus{
+	border:none;
+	border-bottom: 2px solid blue;
+	background-color: white;
+	transition: 0.5s;
+}
+input[type=radio]{
+	font-size: 25px;
+}
+input[type=submit]{
+	width: 100%;
+	font-size: 30px;
+	background-color: #30336b;
+	color: white;
+	border: none;
+	margin-top: 20px;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
