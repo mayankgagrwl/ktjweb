@@ -3,19 +3,21 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 </head>
-<body>
-	<h1>Login Page</h1><br>
-	<div>
-		<form>
-			Email:<br>
-			<input type="text" name="email"><br>
-			Password:<br>
-			<input type="password" name="password"><br>
-			<input type="submit" value="Login">
-			<a href="signup.html">Sign up</a>
-		</form>
+<body class="background">
+	<div class="content">
+		<a href="login.html"><button class="active col-6">Log In</button></a>
+		<a href="signup.html"><button class="col-6 deactive">Sign Up</button></a>
+		<div class="form">
+			<form action="/actionpage.php">
+				<label class="preference">Email:<br></label>
+				<input type="text" name="email" placeholder="Enter your e-mail id..."><br>
+				<label class="preference">Password:<br></label>
+				<input type="password" name="password" placeholder="Enter you Password"><br>
+				<input type="submit" name="Log In">
+			</form>
+		</div>
 	</div>
-
 </body>
 </html>
