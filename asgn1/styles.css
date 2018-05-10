@@ -18,7 +18,7 @@
 	border: none;
 	font-size: 35px;
 	display: inline-block;
-	font-family: "calibri";
+	font-family: "Sofia";
 	float:left;
 	cursor: pointer;
 }
@@ -32,7 +32,7 @@
 	border: none;
 	font-size: 35px;
 	display: inline-block;
-	font-family: "calibri";
+	font-family: "Sofia";
 	float:left;
 	cursor: pointer;
 }
@@ -42,13 +42,13 @@
 	border: none;
 	font-size: 35px;
 	display: inline-block;
-	font-family: "calibri";
+	font-family: "Sofia";
 	float:left;
 	cursor: pointer;
 }
 .preference{
 	font-size: 30px;
-	font-family: "calibri";
+	font-family: "Sofia";
 	
 }
 .form{
@@ -84,7 +84,7 @@ input[type=submit]{
 	margin-top: 20px;
 }
 .radio_text{
-	font-family: "calibri";
+	font-family: "Sofia";
 	font-size: 25px;
 	margin-left: 20px;
 }
