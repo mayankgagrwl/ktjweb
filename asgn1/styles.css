@@ -103,6 +103,7 @@ input[type=submit]{
 @media screen and (max-width: 600px){
 	.content {
 		width: 90%;
+		margin: 0px;
 	}
 	.btn {
 		display: block;
